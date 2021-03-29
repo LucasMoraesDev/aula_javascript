@@ -5,8 +5,27 @@ function clicou() {
 }
 
 function redirecionar() {
-    window.open("https://www.linkedin.com/feed/");
-    window.location.href = "https://www.linkedin.com/feed/";
+    window.open("https://www.linkedin.com/feed/"); //abre em outra aba
+    //window.location.href = "https://www.linkedin.com/feed/"; //abre na mesma aba
+}
+
+function trocar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Obrigado por passar o mouse";
+    elemento.innerHTML = "Obrigado por passar o mouse";
+    //alert("Trocar texto")
+}
+
+function voltar(elemento) {
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load() {
+    //alert("Página carregada");
+}
+
+function change(elemento) {
+    console.log(elemento.value)
 }
 
 /*
